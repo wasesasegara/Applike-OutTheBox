@@ -23,6 +23,7 @@ struct HomePage: View {
                         NavigationLink {
                             switch feature {
                             case .buttons: ButtonsPage()
+                            case .dateAndTimePickers: DateAndTimePickerPage()
                             default: DummyPage(title: feature.title)
                             }
                         } label: {

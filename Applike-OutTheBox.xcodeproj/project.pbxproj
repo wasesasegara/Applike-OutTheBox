@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9B05E4C62C064EE9007D7F17 /* ButtonsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B05E4C52C064EE9007D7F17 /* ButtonsPage.swift */; };
 		9B05E4CB2C065303007D7F17 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B05E4CA2C065303007D7F17 /* ButtonStyle.swift */; };
+		9B05E4CE2C0662B2007D7F17 /* DateAndTimePickerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B05E4CD2C0662B2007D7F17 /* DateAndTimePickerPage.swift */; };
 		9B9EF23A2C058BFF00146042 /* Applike_OutTheBoxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EF2392C058BFF00146042 /* Applike_OutTheBoxApp.swift */; };
 		9B9EF23E2C058C0100146042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9EF23D2C058C0100146042 /* Assets.xcassets */; };
 		9B9EF2412C058C0100146042 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9EF2402C058C0100146042 /* Preview Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		9B05E4C52C064EE9007D7F17 /* ButtonsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsPage.swift; sourceTree = "<group>"; };
 		9B05E4CA2C065303007D7F17 /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		9B05E4CD2C0662B2007D7F17 /* DateAndTimePickerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateAndTimePickerPage.swift; sourceTree = "<group>"; };
 		9B9EF2362C058BFF00146042 /* Applike-OutTheBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Applike-OutTheBox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9EF2392C058BFF00146042 /* Applike_OutTheBoxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applike_OutTheBoxApp.swift; sourceTree = "<group>"; };
 		9B9EF23B2C058BFF00146042 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 				9B05E4CA2C065303007D7F17 /* ButtonStyle.swift */,
 			);
 			path = Button;
+			sourceTree = "<group>";
+		};
+		9B05E4CC2C066294007D7F17 /* DateAndTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9B05E4CD2C0662B2007D7F17 /* DateAndTimePickerPage.swift */,
+			);
+			path = DateAndTimePicker;
 			sourceTree = "<group>";
 		};
 		9B9EF22D2C058BFF00146042 = {
@@ -140,6 +150,7 @@
 			children = (
 				9B9EF2492C058EC700146042 /* About */,
 				9B9EF25F2C06303B00146042 /* Buttons */,
+				9B05E4CC2C066294007D7F17 /* DateAndTimePicker */,
 				9B9EF2592C05957A00146042 /* Home */,
 			);
 			path = View;
@@ -247,6 +258,7 @@
 				9B9EF2502C0591C500146042 /* Feature.swift in Sources */,
 				9B9EF2522C05930B00146042 /* HomePage.swift in Sources */,
 				9B9EF25E2C0623A900146042 /* ItemRow.swift in Sources */,
+				9B05E4CE2C0662B2007D7F17 /* DateAndTimePickerPage.swift in Sources */,
 				9B9EF25B2C05970B00146042 /* FeatureRow.swift in Sources */,
 				9B05E4CB2C065303007D7F17 /* ButtonStyle.swift in Sources */,
 				9B9EF24B2C058F1900146042 /* AboutPage.swift in Sources */,
