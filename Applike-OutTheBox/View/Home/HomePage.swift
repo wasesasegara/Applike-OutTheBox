@@ -1,5 +1,5 @@
 //
-//  HomeView.swift
+//  HomePage.swift
 //  Applike-OutTheBox
 //
 //  Created by Bis  on 28/05/24.
@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct HomeView: View {
+struct HomePage: View {
     var body: some View {
         NavigationView {
             List {
                 Section {
                     NavigationLink {
-                        AboutView()
+                        AboutPage()
                     } label: {
                         Text("About")
                     }
@@ -23,17 +23,21 @@ struct HomeView: View {
                         NavigationLink {
                             DummyPage(title: feature.title)
                         } label: {
-                            Text(feature.title)
+                            FeatureRow(feature: feature)
                         }
                     }
                 }
             }
             .navigationTitle("Applike Out The Box")
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Image(systemName: "swift")
+                }
+            }
         }
-        .navigationTitle("Applike Out The Box")
     }
 }
 
 #Preview {
-    HomeView()
+    HomePage()
 }
