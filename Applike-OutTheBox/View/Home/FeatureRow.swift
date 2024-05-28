@@ -11,11 +11,7 @@ struct FeatureRow: View {
     let feature: Feature
     
     var body: some View {
-        HStack {
-            feature.icon
-            Text(feature.title)
-            Spacer()
-        }
+        ItemRow(icon: feature.icon, indent: 24, title: feature.title)
     }
 }
 

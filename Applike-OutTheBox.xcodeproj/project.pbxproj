@@ -16,6 +16,7 @@
 		9B9EF2522C05930B00146042 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EF23B2C058BFF00146042 /* HomePage.swift */; };
 		9B9EF2562C0594AD00146042 /* DummyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EF2552C0594AD00146042 /* DummyPage.swift */; };
 		9B9EF25B2C05970B00146042 /* FeatureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EF25A2C05970B00146042 /* FeatureRow.swift */; };
+		9B9EF25E2C0623A900146042 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9EF25D2C0623A900146042 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		9B9EF24F2C0591C500146042 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		9B9EF2552C0594AD00146042 /* DummyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyPage.swift; sourceTree = "<group>"; };
 		9B9EF25A2C05970B00146042 /* FeatureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureRow.swift; sourceTree = "<group>"; };
+		9B9EF25D2C0623A900146042 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				9B9EF2492C058EC700146042 /* About */,
+				9B9EF25C2C06238F00146042 /* Common */,
 				9B9EF2592C05957A00146042 /* Home */,
 			);
 			path = View;
@@ -120,6 +123,14 @@
 				9B9EF25A2C05970B00146042 /* FeatureRow.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		9B9EF25C2C06238F00146042 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9B9EF25D2C0623A900146042 /* ItemRow.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 				9B9EF2562C0594AD00146042 /* DummyPage.swift in Sources */,
 				9B9EF2502C0591C500146042 /* Feature.swift in Sources */,
 				9B9EF2522C05930B00146042 /* HomePage.swift in Sources */,
+				9B9EF25E2C0623A900146042 /* ItemRow.swift in Sources */,
 				9B9EF25B2C05970B00146042 /* FeatureRow.swift in Sources */,
 				9B9EF24B2C058F1900146042 /* AboutPage.swift in Sources */,
 				9B9EF23A2C058BFF00146042 /* Applike_OutTheBoxApp.swift in Sources */,

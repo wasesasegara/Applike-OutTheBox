@@ -15,7 +15,7 @@ struct HomePage: View {
                     NavigationLink {
                         AboutPage()
                     } label: {
-                        Text("About")
+                        ItemRow(icon: Image(systemName: "sparkles"), indent: 24, title: "About")
                     }
                 }
                 Section {
