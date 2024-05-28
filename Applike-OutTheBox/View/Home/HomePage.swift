@@ -21,14 +21,17 @@ struct HomePage: View {
                 Section {
                     ForEach(Feature.allCases, id: \.self) { feature in
                         NavigationLink {
-                            DummyPage(title: feature.title)
+                            switch feature {
+                            case .buttons: ButtonsPage()
+                            default: DummyPage(title: feature.title)
+                            }
                         } label: {
                             FeatureRow(feature: feature)
                         }
                     }
                 }
             }
-            .navigationTitle("Applike Out The Box")
+            .navigationTitle("Out The Box")
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Image(systemName: "swift")
